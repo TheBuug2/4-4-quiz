@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	char string;
+	cout << "Would you like a Apple(a) or a Banana(b) or maybe a cantalope?" << endl;
+	cin >> string;
+	if (string == 'a')
+		cout << "ok here's your apple" << endl;
+  else if (string == 'b')
+		cout << "One banana coming right up!" << endl;
+	else if (string == 'c')
+    cout << "A juicy cantalope for you!" << endl;
+
+}
